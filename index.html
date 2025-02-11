@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>اداره المشروع</title>
+</head>
+
+<body>
+
+    <div class="all">
+        <section class="top">
+            <h3>اداره المخازن</h3>
+            <p>شركه مترو باك للصناعات الورقيه والبلاستيكية</p>
+
+        </section>
+        <div class="name">
+            <input type="text" placeholder="اسم الصنف" required id="name_sanf">
+        </div>
+
+        <section class="alasnaf">
+            <input type="text" placeholder="نوع الصنف" required id="nowh_sanf">
+            <input type="text" placeholder="وحدة اضافة الصنف" required id="wehdet_sanf">
+            <input type="number" placeholder="الكميه" required id="camia_sanf">
+            <input type="date" placeholder="تاريخ الاضافه" required id="date_sanf">
+
+
+
+            <div class="bottun">
+                <button id="button_adaft_sanf">اضافه الصنف</button>
+
+            </div>
+        </section>
+        <section class="botton">
+            <input type="text" placeholder="البحث في الصنف" required id="serch_sanf">
+        </section>
+
+        <div class="serch_button">
+            <button id="button_name_sanf">البحث بالاسم</button>
+            <button id="button_serch_nowh_sanf">البحث بالنوع</button>
+        </div>
+
+    </div>
+    <div class="tepol">
+        <div id="deleteAll">
+
+        </div>
+
+        <table>
+            <tr>
+                <th>رقم الصنف</th>
+                <th>اسم الصنف</th>
+                <th>نوع الصنف</th>
+                <th>وحده اضافه الصنف</th>
+                <th>الكميه </th>
+                <th>تاريخ اضافه الصنف</th>
+                <th>التعديل علي الصنف</th>
+
+            </tr>
+
+            <tbody id="tbody">
+
+
+            </tbody>
+
+
+        </table>
+
+
+    </div>
+
+    </div>
+    <script src="min.js"></script>
+</body>
+
+</html>

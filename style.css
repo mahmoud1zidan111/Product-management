@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    direction: rtl;
+    background-image: linear-gradient(to right, rgb(2, 2, 2), rgb(31, 29, 29));
+    /* background-size: cover; */
+    color: #fff;
+    width: 100%;
+
+}
+
+button {
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #410149;
+    padding: 7px 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+    border: 0px solid #414141;
+}
+
+input {
+    color: #fff;
+    background-color: #242323;
+    outline: none;
+    border: none;
+    padding: 6px 5px;
+    direction: rtl;
+    border-radius: 5px;
+    transition: 0.4s;
+    border: 0px solid #fff;
+}
+
+
+input::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+input[type="date"] {
+    color: #fff
+}
+
+input[type="date"]::after {
+    content: 'يوم-شهر-سنه';
+}
+
+
+
+.all {
+    width: 100%;
+}
+
+.top {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+.top h3,
+.top p {
+    margin: 10px;
+    text-align: center;
+}
+
+.name input {
+    width: 90%;
+    margin: 0.5% 4%;
+}
+
+.alasnaf {
+    margin: 0.5% 3%;
+}
+
+.alasnaf input {
+    width: 22.2%;
+    margin: 1% 1%;
+}
+
+#deleteAll button {
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    width: 91%;
+    margin-right: 3.8%;
+}
+
+.bottun {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottun button {
+    width: 96.5%;
+    margin: 0.5% 0%;
+    margin-left: 1.8%;
+}
+
+.serch_button {
+    width: 100%;
+    padding: 0% 4.3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serch_button button {
+    width: 49%;
+
+    margin-left: 1.5%;
+    margin-top: 0.8%;
+}
+
+.serch_button {
+    width: 100%;
+}
+
+.botton input {
+    width: 91%;
+    margin: 0.5% 3.5% 0% 0.5%;
+
+}
+
+
+
+
+/* hovers */
+
+input:focus {
+    background-color: #5e5e5e;
+    border: 1px solid #fff;
+}
+
+button:hover {
+    background-color: #650a71;
+    color: #c9c9c9;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+/* table */
+
+
+table {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table tr th {
+    margin: 10px 5px;
+    padding: 20px 10px;
+    font-size: 20px;
+    background-color: #52525200;
+}
+
+tbody tr td {
+
+
+    padding: 5px 2.5px;
+}
+
+/* CSS لتأثير الاختفاء */
+/* .fade-out {
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    background-color: #650a71;
+}
+
+.fade-out.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    background-color: #650a71;
+} */
